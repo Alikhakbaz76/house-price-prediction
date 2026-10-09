@@ -3,17 +3,16 @@ This project uses Python and machine learning to predict house sale prices.
 
 
 ## Tools & Technologies
-
-Python — Programming language
-Pandas — Data loading and manipulation
-NumPy — Numerical calculations
-Scikit-learn — Machine learning and model evaluation
-SimpleImputer — Handling missing values
-OneHotEncoder — Encoding categorical features
-Pipeline and ColumnTransformer — Building preprocessing workflows
-Linear Regression and Random Forest — Regression models
-MAE, RMSE, and R² — Model evaluation metrics
-Cross-Validation — Evaluating model performance across different data splits
+- **Python** — Programming language
+- **Pandas** — Data loading and manipulation
+- **NumPy** — Numerical calculations
+- **Scikit-learn** — Machine learning and model evaluation
+- **SimpleImputer** — Handling missing values
+- **OneHotEncoder** — Encoding categorical features
+- **Pipeline and ColumnTransformer** — Building preprocessing workflows
+- **Linear Regression and Random Forest** — Regression models
+- **MAE, RMSE, and R²** — Model evaluation metrics
+- **Cross-Validation** — Evaluating model performance across different data splits
 
 ## Project Workflow
 1. Data Loading — Loaded the house price dataset using Pandas.
