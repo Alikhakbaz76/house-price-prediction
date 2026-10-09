@@ -20,9 +20,9 @@ This project uses Python and machine learning to predict house sale prices.
 3. Train-Test Split — Split the dataset into training and testing sets using an 80/20 ratio.
 4. Data Preprocessing — Handled missing numerical values using the median and missing categorical values using a placeholder. Applied One-Hot Encoding to categorical features.
 5. Model Training — Trained three models:
- - Dummy Regressor as a baseline
- - Linear Regression
- - Random Forest Regressor
+  - Dummy Regressor as a baseline
+  - Linear Regression
+  - Random Forest Regressor
 6. Model Evaluation — Evaluated predictions using MAE, RMSE, and R².
 7. Cross-Validation — Used 5-fold cross-validation to evaluate Linear Regression and Random Forest.
 8. Model Comparison — Compared training, testing, and cross-validation results to identify the best-performing model.
@@ -47,8 +47,9 @@ Three regression models were evaluated using MAE, RMSE, and R². Linear Regressi
 
 The evaluation results are saved in `model_comparison.csv`.
 
-
 ## Project Structure
+
+```text
 house-price-prediction/
 ├── analysis.py
 ├── README.md
@@ -56,21 +57,25 @@ house-price-prediction/
 ├── .gitignore
 ├── model_comparison.csv
 └── data/
-    └── train.csv  # Download separately; not included in the repository
- * analysis.py — Main script for data preprocessing, model training, cross-validation, and evaluation.
- * model_comparison.csv — Contains the model evaluation results.
- * requirements.txt — Lists the Python libraries required to run the project.
- * .gitignore — Specifies files and folders Git should ignore.
- * data/train.csv — The dataset file that must be downloaded separately before running the analysis.
+    └── train.csv (download separately)
+```
+
+- **`analysis.py`** — Main script for data preprocessing, model training, cross-validation, and evaluation.
+- **`model_comparison.csv`** — Contains the model evaluation results.
+- **`requirements.txt`** — Lists the required Python libraries.
+- **`.gitignore`** — Specifies files and folders Git should ignore.
+- **`data/train.csv`** — Dataset file that must be downloaded separately.
+- **`README.md`** — Project overview, workflow, tools, and results.
 
 ## Dataset
-This project uses the train.csv dataset from Kaggle's House Prices - Advanced Regression Techniques competition.
 
- * Source: Kaggle House Prices Competition
- * Target variable: SalePrice
- * Expected local path: data/train.csv
+This project uses the `train.csv` dataset from Kaggle's House Prices - Advanced Regression Techniques competition.
 
-The dataset is not included in this repository. Download it from the competition page, follow the applicable terms, and place train.csv inside the data folder before running analysis.py.
+- **Source:** [Kaggle House Prices Competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
+- **Target variable:** `SalePrice`
+- **Expected local path:** `data/train.csv`
+
+The dataset is not included in this repository. Download it from the competition page, follow the applicable terms, and place `train.csv` inside the `data` folder before running `analysis.py`.
 
 
 
